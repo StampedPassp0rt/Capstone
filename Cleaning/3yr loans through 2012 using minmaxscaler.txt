@@ -1,0 +1,81 @@
+Three year Loan Models Output. Using MinMaxScaler.
+
+Decision Tree:
+
+[[1700  369]
+ [ 318   95]]
+             precision    recall  f1-score   support
+
+          0       0.84      0.82      0.83      2069
+          1       0.20      0.23      0.22       413
+
+avg / total       0.74      0.72      0.73      2482
+
+Recall Score for Default Class is 0.230024213075
+ROC AUC Score is: 0.525838592763
+Model Non Default Rate is 0.842418235877
+
+Grid_Searched DT for ROC-AUC:
+
+params = {'min_samples_split': 2, 'splitter': 'random', 'criterion': 'gini',
+    'max_depth': 5, 'min_samples_leaf': 1}
+
+    [[1513  556]
+     [ 233  180]]
+                 precision    recall  f1-score   support
+
+              0       0.87      0.73      0.79      2069
+              1       0.24      0.44      0.31       413
+
+    avg / total       0.76      0.68      0.71      2482
+
+    Recall Score for Default Class is 0.43583535109
+    ROC AUC Score is: 0.616350905855
+    Model Non Default Rate is 0.866552119129
+
+
+Grid Searched Bagged Decision Tree from Grid Searched DT for ROC AUC.
+params = {'max_features': 1.0, 'max_samples': 0.7, 'n_estimators': 30, 'bootstrap_features': False}
+
+[[1440  629]
+ [ 202  211]]
+             precision    recall  f1-score   support
+
+          0       0.88      0.70      0.78      2069
+          1       0.25      0.51      0.34       413
+
+avg / total       0.77      0.67      0.70      2482
+
+Recall Score for Default Class is 0.510895883777
+ROC AUC Score is: 0.653445828365
+Model Non Default Rate is 0.876979293544
+
+Bagged Decision Tree Classifier, On Grid Searched ROC AUC Tree.
+{'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 30, 'bootstrap_features': True}
+[[1401  668]
+ [ 192  221]]
+             precision    recall  f1-score   support
+
+          0       0.88      0.68      0.77      2069
+          1       0.25      0.54      0.34       413
+
+avg / total       0.77      0.65      0.69      2482
+
+Recall Score for Default Class is 0.535108958838
+ROC AUC Score is: 0.65947218071
+Model Non Default Rate is 0.879472693032
+
+Support Vector Machine - Base:
+[LibSVM]
+[[1437  632]
+ [ 219  194]]
+             precision    recall  f1-score   support
+
+          0       0.87      0.69      0.77      2069
+          1       0.23      0.47      0.31       413
+
+avg / total       0.76      0.66      0.70      2482
+
+Recall Score for Default Class is 0.469733656174
+ROC AUC Score is: 0.618314634223
+Model Non Default Rate is 0.867753623188
