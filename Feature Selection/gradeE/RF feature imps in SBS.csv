@@ -1,0 +1,19 @@
+sbs,sbs,Importance
+0,RENT,
+1,int_rate,0.0614369934262
+2,emp_length_1,
+3,dti,0.0679233562686
+4,open_acc,0.0464305771769
+5,pub_rec,
+6,revol_util,0.0669469291263
+7,emp_length_8,
+8,ever_delinq_dummy,0.0107776317662
+9,sub_grade_encoded,0.0269727513944
+10,verification_status_Source Verified,
+11,derog_record_present,
+12,house,
+13,emp_length_7,
+14,renewable_energy,
+15,small_business,
+16,vacation,
+17,emp_length_10,0.0111822978807

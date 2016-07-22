@@ -1,0 +1,10 @@
+model,mean_return
+adaboost_lr_pred,0.164758653571
+dtbag_pred,0.145308343203
+ensemble_pred,0.139192922197
+et_pred,0.158790502974
+logreg_l1_pred,0.163918322367
+logreg_l2_pred,0.162062936529
+rf_pred,0.152289710892
+svc_pred,0.153107366157
+whole_gradeE,0.123043453943

@@ -1,0 +1,26 @@
+,0
+0,annual_inc
+1,delinq_2yrs
+2,inq_last_6mths
+3,pub_rec
+4,ever_delinq_dummy
+5,sub_grade_encoded
+6,public_record_ind
+7,derog_record_present
+8,home_improvement
+9,house
+10,other
+11,small_business
+12,vacation
+13,NONE
+14,OWN
+15,emp_length_2
+16,emp_length_3
+17,emp_length_5
+18,emp_length_6
+19,emp_length_7
+20,emp_length_8
+21,emp_length_n/a
+22,verification_status_Source Verified
+23,verification_status_Verified
+24,work_prop

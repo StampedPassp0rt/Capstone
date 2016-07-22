@@ -1,0 +1,19 @@
+,0
+0,RENT
+1,int_rate
+2,emp_length_1
+3,dti
+4,open_acc
+5,pub_rec
+6,revol_util
+7,emp_length_8
+8,ever_delinq_dummy
+9,sub_grade_encoded
+10,verification_status_Source Verified
+11,derog_record_present
+12,house
+13,emp_length_7
+14,renewable_energy
+15,small_business
+16,vacation
+17,emp_length_10
