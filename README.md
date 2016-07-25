@@ -1,7 +1,9 @@
 # Capstone
 Capstone for GA Immersive
 
-This repo contains the scripts I utilized to build predictive models of default rates for three-year installment loans issued by Lending Club. If seeking to replicate the analysis, you will need to obtain the following raw data:
+This repo contains the scripts I utilized to build predictive models of default rates for three-year installment loans issued by Lending Club. If interested in the results, please go to the Powerpoint deck in the main folder.
+
+If seeking to replicate the analysis, you will need to obtain the following raw data:
 
 1) The entire loan book from Lending Club, downloadable here: https://www.lendingclub.com/info/download-data.action
 
